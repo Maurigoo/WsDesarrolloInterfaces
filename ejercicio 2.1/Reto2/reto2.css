@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    margin-left: 0;
+    background-color: blueviolet;
+   
+}
+
+div {
+    
+    width: 12.5rem;
+    height: 12.5rem;
+    background-color: white;
+    margin: 0.5%; 
+}

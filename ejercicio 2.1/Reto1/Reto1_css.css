@@ -1,0 +1,11 @@
+body{
+    background-color: blueviolet;
+}
+
+.caja{
+    width: 31.5rem;
+    height: 31.5rem;
+    background-color: white;
+    margin: auto;
+    margin-top: 4%;
+}
