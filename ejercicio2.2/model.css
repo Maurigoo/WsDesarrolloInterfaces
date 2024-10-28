@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 20em;
+    height: 20em;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.caja1{
+    height: 60%;
+    
+}
+
+.caja2{
+    
+    height: 40%;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
