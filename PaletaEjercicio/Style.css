@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --font-size-base: 24px;
+    --font-family-primary: "Prompt", sans-serif;
+    --text--font-size-h1:3.05rem;
+    --text--font-size-h2:2.44rem;
+    --text--font-size-h3:1.95rem;
+    --text--font-size-h4:1.56rem;
+    --text--font-size-h5:1.25rem;
+
+    --text--font-weight-bold:bold;
+    --text--font-weight-normal:normal;
+    --text--font-weight-thin:100;
+
+    --color-bg: white;
+    --color-text: black;
+    --color-border: black
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+.dark-theme {
+    --color-bg: black;
+    --color-text: white;
+    --color-border:white;
+}
+
+
+.text {
+    margin-top: 5px;
+    border: 3px solid var(--color-border);
+    width: 80%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: var(--font-size-base);
+    font-family: var(--font-family-primary);
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p {
+    font-size: var(--font-size-base);
+    font-family: var(--font-family-secondary);
+}
+
+h1{
+    font-size: var(--text--font-size-h1);
+}
+
+h2{
+    font-size: var(--text--font-size-h2);
+}
+
+h3{
+    font-size: var(--text--font-size-h3);
+}
+
+h4{
+    
+    font-size: var(--text--font-size-h4);
+}
+
+h5{
+    font-size: var(--text--font-size-h5);
+}
+.text .bold{
+    font-weight: var(--text--font-weight-bold);
+}
+
+.text .normal{
+    font-weight: var(--text--font-weight-normal);
+}
+
+.text .ligh{
+    font-weight: var(--text--font-weight-thin);
+}
